@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <rect width="100" height="100" rx="28" fill="#4A1525"/>
+  <path d="M50 20L58.5 38.5L77 47L58.5 55.5L50 74L41.5 55.5L23 47L41.5 38.5L50 20Z" fill="url(#sparkle-grad)"/>
+  <circle cx="50" cy="47" r="8" fill="#F7E4E8"/>
+  <defs>
+    <linearGradient id="sparkle-grad" x1="23" y1="20" x2="77" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E89CAE"/>
+      <stop offset="1" stop-color="#FCD5CE"/>
+    </linearGradient>
+  </defs>
+</svg>

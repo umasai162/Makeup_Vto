@@ -1,0 +1,54 @@
+/* Glassmorphism & custom component utilities */
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(247, 233, 236, 0.8);
+}
+
+.glass-card-dark {
+  background: rgba(45, 10, 20, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(130, 51, 75, 0.4);
+}
+
+.badge-ai {
+  background: linear-gradient(135deg, #4A1525 0%, #7A2840 100%);
+  color: #F7E4E8;
+  border: 1px solid rgba(232, 156, 174, 0.3);
+}
+
+.badge-gold {
+  background: linear-gradient(135deg, #FFF0ED 0%, #F9F1E8 100%);
+  color: #5C1D30;
+  border: 1px solid #FCD5CE;
+}
+
+/* Custom range sliders */
+input[type=range].beauty-slider {
+  -webkit-appearance: none;
+  width: 100%;
+  background: transparent;
+}
+
+input[type=range].beauty-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #4A1525;
+  border: 3px solid #FFFFFF;
+  box-shadow: 0 2px 6px rgba(74, 21, 37, 0.3);
+  cursor: pointer;
+  margin-top: -6px;
+}
+
+input[type=range].beauty-slider::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  background: #EBC7D0;
+  border-radius: 4px;
+}
