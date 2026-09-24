@@ -6,9 +6,9 @@ import MobileNavigation from '../components/layout/MobileNavigation';
 
 const AppLayout = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-plum-50/40">
+    <div className="min-h-screen flex flex-col bg-[#FAF5F6] selection:bg-[#F2C9D2] selection:text-[#2A0714]">
       <Navbar />
-      <div className="flex flex-1 max-w-7xl w-full mx-auto pb-16 lg:pb-0">
+      <div className="flex flex-1 max-w-[1440px] w-full mx-auto pb-16 lg:pb-0">
         <Sidebar />
         <main className="flex-1 px-4 sm:px-6 lg:px-8 py-6 overflow-y-auto">
           <Outlet />
